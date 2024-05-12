@@ -1,0 +1,6 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*ANy padding which we give or any border-size we give that size should be calculated inside the height and width*/
+    border: border-box;
+}
