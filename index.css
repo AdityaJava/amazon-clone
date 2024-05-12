@@ -34,3 +34,19 @@
 .border:hover {
     border: 2px solid white;
 }
+
+/**/
+.address-deliver {
+    color: #CCCCCC;
+    font-size: 0.85rem;
+}
+
+.address-location {
+    color: white;
+    font-size: 1rem;
+}
+
+.address-icon {
+    display: flex;
+    flex-wrap: wrap;
+}
