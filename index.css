@@ -73,6 +73,10 @@
     border: none;
 }
 
+.nav-search:hover {
+    border: 2px solid rgb(213, 140, 6);
+}
+
 .search-input {
     width: 100%;
     font-size: 1rem;
@@ -87,8 +91,6 @@
     font-size: 1.2rem;
     color: #0F1111;
 }
-
-.nav-signin {}
 
 .nav-first {
     font-size: 0.7rem;
