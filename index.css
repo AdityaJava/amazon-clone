@@ -138,3 +138,9 @@
     font-size: 0.95rem;
     font-weight: 700;
 }
+
+.hero-section {
+    height: 600px;
+    background-image: url("images/hero-sectionimage1.jpg");
+    background-size: cover;
+}
