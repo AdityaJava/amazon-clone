@@ -126,8 +126,15 @@
 
 .panel-ops p {
     display: inline;
+    font-size: 0.85rem;
+    margin-left: 15px;
 }
 
 .panel-all i {
     font-size: 20px;
+}
+
+.panel-deals {
+    font-size: 0.95rem;
+    font-weight: 700;
 }
