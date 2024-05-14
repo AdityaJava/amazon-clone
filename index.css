@@ -167,11 +167,22 @@
 .box {
     height: 400px;
     width: 23%;
-    border: 2px solid black;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 15px;
+}
+
+.box a {
+    position: relative;
+    right: 0px;
+    text-decoration: none;
+    color: #007185;
+}
+
+.box a:hover {
+    color: rgb(223, 148, 9);
 }
 
 .box-img {
