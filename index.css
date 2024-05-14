@@ -198,21 +198,39 @@
     margin-left: 40px;
 }
 
+footer {
+    margin-top: 15px;
+}
+
 .footpanel1 {
-    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
+    height: 50px;
     background-color: #2e5050;
     color: white;
+    font-size: 0.85rem;
 }
 
 .footpanel2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 300px;
     background-color: #243d3d;
     color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+ul p {
+    color: #dddd;
+}
+
+.foot-panel2-list-header {
+    color: white;
+    font-weight: 600;
 }
