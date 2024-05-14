@@ -256,13 +256,13 @@ ul p {
     background-color: #152323;
     color: white;
     height: 76px;
+    font-size: 0.7rem;
+    text-align: center;
 }
 
 .pages {
-    font-size: 0.7rem;
     text-decoration: none;
     color: white;
-    text-align: center;
     padding-top: 25px;
 }
 
@@ -272,7 +272,5 @@ ul p {
 }
 
 .copyright {
-    font-size: 0.7rem;
-    text-align: center;
     padding-top: 5px;
 }
