@@ -140,7 +140,48 @@
 }
 
 .hero-section {
-    height: 600px;
+    height: 380px;
     background-image: url("images/hero-sectionimage1.jpg");
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-section-info {
+    height: 40px;
+    width: 95%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(253, 216, 222);
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-img {
+    height: 80%;
+    width: 80%;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.box-content {
+    position: relative;
+    margin-left: 40px;
 }
